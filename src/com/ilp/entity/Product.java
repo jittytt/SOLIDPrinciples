@@ -1,6 +1,6 @@
 package com.ilp.entity;
 
-public class Product{
+public abstract class Product{
 	private String productId;
 	private String productName;
 	private String productColor;

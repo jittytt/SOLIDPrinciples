@@ -50,6 +50,7 @@ public class MainUtility {
 		System.out.println("Do you want to continue?(y/n)");
 		whileChoice = scanner.next().charAt(0);
 	}while(whileChoice == 'y');
-		
+	
+	OrderService order = new OrderService();
 }
 }

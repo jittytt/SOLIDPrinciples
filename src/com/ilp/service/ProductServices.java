@@ -34,6 +34,7 @@ public class ProductServices implements ProductDeleteManager, ProductDisplayMana
             System.out.println("Product with ID " + productId + " not found.");
         }
 	}
+	
 	@Override
 	public void displayAllProducts(Map<String, Product> products) {
 		for (Map.Entry<String, Product> entry : products.entrySet()) {
